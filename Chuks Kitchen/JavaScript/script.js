@@ -87,3 +87,13 @@ window.addEventListener("load", function () {
     }, 1000); // Loader stays for 1 second
 
 });
+
+
+
+const hamburger = document.getElementById("hamburger");
+const navbar = document.querySelector(".home-navbar");
+
+hamburger.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+});
+
