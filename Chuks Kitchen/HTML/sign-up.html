@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up - Chuks Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style2.css">
+    <script src="https://kit.fontawesome.com/9ab2ab27be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <!-- LOADER -->
+    <section class="loading-body" id="loader">
+        <div class="loading-container">
+            <div class="spinner"></div>
+        </div>
+    </section>
+
+    <section class="signup-wrapper">
+
+        <!-- LEFT IMAGE PANEL -->
+        <div class="signup-left">
+            <div class="signup-overlay">
+                <h1>Chuks Kitchen</h1>
+                <p>
+                    Your journey to delicious, authentic Nigerian meals starts here.
+                    Sign up or log in to order your favorites today!
+                </p>
+            </div>
+        </div>
+
+        <!-- RIGHT FORM PANEL -->
+        <div class="signup-right">
+
+            <div class="signup-form-container">
+
+                <h3 class="signup-logo">Chuks Kitchen</h3>
+                <h2>Create Your Account</h2>
+
+                <form id="signupForm">
+
+                        <label>Email</label>
+                        <input type="email" placeholder="name@gmail.com">
+
+                        <label>Phone number</label>
+                        <input type="tel" placeholder="8123340690">
+
+                    <label>Password</label>
+                    <div class="signup-password-field">
+                        <input type="password" id="signupPassword" placeholder="QWE123#" required>
+                        <span class="toggleSignupPassword">👁</span>
+                    </div>
+
+                    <label>Confirm password</label>
+                    <div class="signup-password-field">
+                        <input type="password" id="signupConfirmPassword" placeholder="QWE123#" required>
+                        <span class="toggleSignupConfirm">👁</span>
+                    </div>
+
+                    <div class="signup-terms">
+                        <input type="checkbox" required>
+                        <span>
+                            I agree to the <a href="#">Terms & Conditions</a>
+                            and <a href="#">Privacy Policy</a>
+                        </span>
+                    </div>
+
+                    <button type="submit" class="btn-primary signup-btn">
+                        Continue
+                    </button>
+
+                </form>
+
+                <div class="signup-divider">or continue with</div>
+
+                <button class="signin-social google-btn">
+                    <img src="../Assets/images/google.svg" alt="Google logo">
+                    Continue with Google
+                </button>
+
+                <button class="signin-social facebook-btn">
+                    <img src="../Assets/images/facebook.png" alt="Facebook logo">
+                    Continue with Facebook
+                </button>
+
+                <p class="signup-login">
+                    Already have an account?
+                    <a href="sign-in.html">Sign In</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+         <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-column first-column">
+                    <h3>Chuks Kitchen</h3>
+                    <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
+                    <small>&copy; 2024 Mr. Chuks. All rights reserved.</small>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="">My Account</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <p>+234 801 234 5678</p>
+                    <p>hello@chukskitchen.com</p>
+                    <p>123 Taste Blvd, Lagos, Nigeria</p>
+                </div>
+
+                <div class="footer-column">
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>LinkedIn</p>
+                    <p>Instagram</p>
+                </div>
+            </div>
+         </footer>
+
+         <!-- SCROLL TO TOP -->
+    <button id="scrollTopBtn">↑</button>
+
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
